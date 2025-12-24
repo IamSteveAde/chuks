@@ -45,14 +45,15 @@ export default function Footer() {
             <div>
               <h4 className="text-white font-semibold mb-4 text-lg">Company</h4>
               <ul className="space-y-3">
-                <li>
-                  <Link href="/about" className="text-gray-400 hover:text-primary transition">
-                    About
-                  </Link>
-                </li>
+                
                 <li>
                   <Link href="/#how" className="text-gray-400 hover:text-primary transition">
                     How it Works
+                  </Link>
+                </li>
+                 <li>
+                  <Link href="/#features" className="text-gray-400 hover:text-primary transition">
+                    About
                   </Link>
                 </li>
                 <li>
@@ -60,6 +61,7 @@ export default function Footer() {
                     Services
                   </Link>
                 </li>
+               
                 <li>
                   <Link href="/policy" className="text-gray-400 hover:text-primary transition">
                     Website Policies
